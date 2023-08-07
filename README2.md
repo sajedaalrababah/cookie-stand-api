@@ -1,0 +1,30 @@
+LAB - Class 34
+Project: Cookies_stand_api
+Author: Sajeda alrababah
+Setup .env requirements (where applicable) i.e.
+
+``````
+SECRET_KEY=bq2cwSjjdpi7xztGsfHS9zG55eazdNAokKXQuS8Zr1Y
+DEBUG=True
+
+ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0
+ALLOW_ALL_ORIGINS=True
+
+# postgres://oggraofw:b37a3KuCbRjc75kc3ZsbQWN9k9-uaFg9@john.db.elephantsql.com/oggraofw
+DATABASE_ENGINE=django.db.backends.postgresql
+DATABASE_NAME=oggraofw
+DATABASE_USER=oggraofw
+DATABASE_PASSWORD=b37a3KuCbRjc75kc3ZsbQWN9k9-uaFg9
+DATABASE_HOST=john.db.elephantsql.com
+DATABASE_PORT=5432
+``````
+
+
+
+PORT - 8000
+DATABASE_URL -  postgres://oggraofw:b37a3KuCbRjc75kc3ZsbQWN9k9-uaFg9@john.db.elephantsql.com/oggraofw
+How to initialize/run your application (where applicable) docker-compose run web python manage.py runserver
+
+user name:sajeda
+pass : 1234
+
